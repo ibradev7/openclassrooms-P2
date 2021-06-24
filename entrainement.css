@@ -1,24 +1,101 @@
-@font-face {
-    font-family: ;
-    src: url(/static/Raleway-VariableFont_wght.ttf);
+/* Global */
+body{
+    font-family: 'Raleway', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.conteneur{
+    margin: 0 5%;
+
 }
 
-header
-{
-    display:flex; 
-    justify-content:space-between;
-    align-items: flex-end
-    
-}
-header nav ul
-{
-    list-style-type: none;
+ 
+
+
+
+
+/* Navigation */
+nav{
     display: flex;
-    float:right
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
 }
-#nav li
-{
-    
-    
-    
+nav ul{
+    display: flex;
+    flex-direction: row;
+
 }
+.nav-link{
+    padding: 53px 25px 10px 25px;
+
+}
+.nav-register{
+    padding: 53px 25px 10px 25px;
+    font-weight: bold;
+    color: #0065fc;
+}
+.nav-link:hover{
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
+/* section recherche */
+.recherche h1{
+    padding-top: 33px;
+    font-size: 21px;
+}
+.recherche p{
+    padding-top: 8px;
+    font-size: 15.3px;
+}
+.formulaire-recherche{
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 12px;
+}
+.formulaire-recherche i{
+     width: 20px;
+    font-size: 15px;
+    background-color:  #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    padding: 12px;
+}
+.formulaire-recherche input{
+
+}
+.formulaire-recherche button{
+
+}
+
+
+
+
+
+
+
+
+/* Formulaire de recherche */
+
+
+
+
+
+
+
+
+/* Filtres */
