@@ -69,7 +69,7 @@ nav ul{
 }
 .formulaire-recherche i
 {
-    width: 37px;
+    width: 50px;
     font-size: 20px;
     background-color:  #F2F2F2;
     border-radius: 15px 0px 0px 15px;
@@ -79,18 +79,25 @@ nav ul{
 .formulaire-recherche input{
     display: inline;
     padding: 12px;
-    width: 210;
+    width: 226px;
     font-size: 100%;
     font-weight: bold;
-    border-width: 0px;
-    border-color: gray
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    height: 48px;
+    
+    
+    
+    
     
 }
 .formulaire-recherche button{
     width: 130px;
     font-size: 17px;
     border-radius: 0px 15px 15px 0px;
-    text-align: center; color: #F2F2F2;
+    text-align: center; color: #f5eeee;
     padding: 14px;
     background-color: #0065fc;
     border-style: none;
@@ -113,3 +120,170 @@ nav ul{
 
 
 /* Filtres */
+.filtre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.filtre h2{
+    font-size: 18px;
+    padding-right: 25px;
+}
+.filtre button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 50px;
+    border: 2px solid #F2F2F2;
+    background-color: white;
+    padding-right: 22px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.filtre button :hover{
+    background-color: lightblue;
+    cursor: pointer;
+    color: #ffffff;
+}
+.filtre button i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #deebff;
+    border-radius: 50%;
+    color: #0065fc;
+
+}
+.filtre button span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding-left: 10px;
+
+}
+/* info */
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+}
+.info i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50%;
+    color: #0065fc;
+
+
+}
+.info p{
+    font-size: 15px;
+    padding-left: 20px;
+
+}
+/* hebergement et populaires */
+.hotel-conteneur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+/* hebergement a marseille */
+.hebergement-a-marseille{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    flex-basis: 65%;
+}
+
+
+
+
+
+/* les plus populaires */
+.populaire{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    flex-basis: 32%;
+    justify-content: space-between;
+    
+}
+.populaire-header{
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+    margin-left: 4%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.populaire-header h3{
+    display: flex;
+    color: black;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.populaire-header i{
+    padding-left: 540px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.populaire-cartes{
+    /* display grid */
+    background-color: #fff;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 3px 5px 5px #e2e2e2;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border-width: 20px;
+    font-size: 20px;
+    
+    
+}
+.populaire-carte-item{
+}
+.populaire-carte-item img{
+    width: 25%;
+    height: 185%;
+    object-fit: cover;
+    border-radius: 15px 0px 0px 15px  ;
+    margin-right: 10px;
+
+}
+.populaire-carte-contenu{
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    flex-direction: column;
+}
+.populaire-carte-contenu h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    padding-top: 5px;
+}
+.populaire-carte-contenu p{
+     display: flex;
+        flex-direction: column;
+        width: 63.46%;
+        padding: 8px 10px;
+}
+.notation{
+    display: flex;
+    justify-content: flex-start;
+}
+.notation i{
+
+}
